@@ -17,7 +17,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/texto1"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"/>
     </TableRow>
 
     <TableRow
@@ -28,7 +30,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/texto2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:inputType="textCapSentences"/>
     </TableRow>
 
     <TableRow
@@ -39,7 +42,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/texto3"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:inputType="text"
+            android:imeOptions="actionSend"/>
     </TableRow>
 
     <TableRow
@@ -51,6 +56,6 @@
             android:layout_height="wrap_content"
             android:text="Ok"
             android:id="@+id/boton"
-            android:layout_weight="1" />
+            android:layout_weight="1"/>
     </TableRow>
 </TableLayout>
